@@ -4,8 +4,8 @@ import { CgGoogle, CgYoutube } from 'react-icons/cg';
 import { SiCoursera, SiUdemy } from 'react-icons/si';
 import { DiAws } from 'react-icons/di';
 import './home.css'
-import vg from '../assets/images/bg.png'
-import introVideo from '../assets/videos/intro.mp4';
+import vg from '../../assets/images/bg.png'
+import introVideo from '../../assets/videos/intro.mp4';
 
 function Home() {
     return(
