@@ -18,9 +18,9 @@ function Home() {
                     alignItems={'center'}
                     spacing={['16', '56']}
                 >
-                    <VStack width={'full'} alignItems={['center', 'flex-end']}>
-                        <Heading size={'2xl'}>LEARN FROM THE EXPERTS</Heading>
-                        <Text>Find valuable content at reasonable price</Text>
+                    <VStack width={'full'} alignItems={['center', 'flex-end']} spacing={'8'}>
+                        <Heading fontSize={'2xl'}>LEARN FROM THE EXPERTS</Heading>
+                        <Text textAlign={['center', 'left']}>Find valuable content at reasonable price</Text>
                         <Link to={'/courses'}>
                             <Button size={'lg'} colorScheme={'yellow'}>Explore Now</Button>
                         </Link>
